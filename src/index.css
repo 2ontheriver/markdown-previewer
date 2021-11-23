@@ -1,0 +1,114 @@
+body {
+  margin: 1em;
+  background-color: #55aaaa;
+}
+::selection {
+  background-color: #0000aa;
+  color: #fff;
+}
+
+h1#page-title{
+  text-align: center;
+  color: #fff;
+  font-family: 'MS Sans Serif', 'Microsoft MS Sans Serif', 'Sans Serif'
+}
+
+#container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-bar{
+  background-color: #0000aa;
+  margin: 0 0 3px;
+  color: #fff;
+  padding: 3px;
+  border: 1px solid #9194c5;
+  font-weight: bold;
+  font-family: 'MS Sans Serif', 'Microsoft MS Sans Serif', 'Sans Serif'
+}
+.window-icon{
+  background-color: #dddfe1;
+  padding: 0 2px;
+  margin: 0 2px;
+  float: right;
+  line-height: 18px;
+}
+
+#editor-container{
+  display: flex;
+  width: 30%;
+  height: 40vh;
+  flex-direction: column;
+}
+
+#editor{
+  resize: none;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  border: 0;
+  box-sizing: border-box;
+}
+#editor:focus {
+  outline: none !important;
+}
+
+#preview, #editor{
+  border-top: 2px solid #5d5f63;
+  border-right: 1px solid #cbcfd2;
+  border-bottom: 1px solid #cbcfd2;
+  border-left: 2px solid #5d5f63;
+  background-color: #fff;
+}
+
+#preview-container, #editor-container{
+  border-top: 2px solid #dddfe1;
+  border-right: 2px solid #626165;
+  border-bottom: 2px solid #626165;
+  border-left: 2px solid #dddfe1;
+  background-color: #dddfe1;
+  padding: 2px;
+  box-shadow: 5px 10px 10px #3c7777;
+}
+
+#preview-container{
+  width: 60%;
+}
+
+#preview{
+  overflow-y: scroll;
+  height: 80vh;
+  padding: 0 1em;
+  font-family: Times New Roman, serif;
+}
+
+#preview img{
+  max-width: 100%
+}
+
+#preview table{
+  border: 1px solid grey;
+}
+#preview th, #preview td{
+  border: 1px solid grey;
+
+}
+
+blockquote{
+
+}
+
+#preview pre{
+  display: block;
+  background-color: #e0e2e3;
+  padding: 0.5em;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background-color: #e0e2e3;
+  display: inline-block;
+  padding: 0.2em;
+}
