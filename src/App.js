@@ -5,7 +5,7 @@ import Editor from './components/Editor.js';
 import Preview from './components/Preview.js';
 import { Remarkable } from 'remarkable';
 
-var md = new Remarkable();
+var md = new Remarkable({'breaks' : true});
 
 class App extends React.Component {
 
