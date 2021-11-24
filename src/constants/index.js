@@ -13,6 +13,10 @@ function anotherExample(firstLine, lastLine) {
     return multiLineCode;
   }
 }
+
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
 \`\`\`
 
 You can also make text **bold**... whoa!
@@ -41,4 +45,37 @@ And here. | Okay. | I think we get it.
 1. And last but not least, let's not forget embedded images:
 
 ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
+
+Lots more text
+
+Lots more text
+
+Lots more text
+
+Lots more text
+
+Lots more text
+
+Lots more text
+
+Lots more text
+
+Lots more text
+
+Lots more text
+
+Lots more text
+
+Lots more text
+
+Lots more text
+
+Lots more text
+
+Lots more text
+
+Lots more text
+
+Lots more text
+
 `;
