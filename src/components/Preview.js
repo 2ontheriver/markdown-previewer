@@ -1,20 +1,15 @@
 import React from 'react';
-import { faEye, faWindowMinimize } from "@fortawesome/free-solid-svg-icons";
-import { faWindowMaximize, faWindowRestore } from "@fortawesome/free-regular-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEye } from "@fortawesome/free-solid-svg-icons";
+import Window from './Window.js';
 
 class Preview extends React.Component {
 
   render() {
     return (
-      <div id="preview-container">
-        <div className="title-bar">
-          <FontAwesomeIcon icon={faEye} color="#fff" /> Preview
-          <span className="window-icon"><FontAwesomeIcon icon={faWindowMaximize} color="#000" size="sm" /></span>
-          <span className="window-icon"><FontAwesomeIcon icon={faWindowMinimize} color="#000" size="sm" /></span>
-        </div>
+      <Window desc="preview" icon={faEye} text="Preview">
         <div id="preview" dangerouslySetInnerHTML={{ __html: this.props.markdown }} />
-      </div>);
+      </Window>
+    );
   }
 
 }

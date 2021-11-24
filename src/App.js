@@ -1,4 +1,3 @@
-import './App.css';
 import * as Constants from './constants/index.js';
 import React from 'react';
 import Editor from './components/Editor.js';
@@ -20,7 +19,9 @@ class App extends React.Component {
   handleEditorChange(e){
     this.setState({markdown: e.target.value});
   }
+
   render() {
+    /* <Editor handleEditorChange={this.handleEditorChange} markdown={this.state.markdown} /> */
     return (
       <>
       <h1 id="page-title">Simple React Markdown Previewer</h1>
