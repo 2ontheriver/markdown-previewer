@@ -1,6 +1,6 @@
 This repo is for the 'Build a Markdown Previewer' exercise from the Front End Development Libraries Projects on [freecodecamp.org](https://www.freecodecamp.org/learn/front-end-development-libraries/#front-end-development-libraries-projects)
 
-You can view this project on my github pages: [https://2ontheriver.github.io/markdown-previewer/] (https://2ontheriver.github.io/markdown-previewer/)
+You can view this project on my github pages: [2ontheriver.github.io/markdown-previewer/](https://2ontheriver.github.io/markdown-previewer/)
 
 
 # Getting Started with Create React App
