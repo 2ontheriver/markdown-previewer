@@ -1,7 +1,7 @@
 {
   "name": "markdown-previewer",
   "version": "0.1.0",
-  "homepage": "http://2ontheriver.github.io/markdown-previewer", 
+  "homepage": "http://dading84.github.io/markdown-previewer",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
