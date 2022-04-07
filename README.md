@@ -4,7 +4,7 @@ This repo is for the 'Build a Markdown Previewer' exercise from the Front End De
 
 You can view this project on my GitHub pages: [duncan-s-white.github.io/markdown-previewer/](https://duncan-s-white.github.io/markdown-previewer/)
 
-This was my first `react-create-app` project.
+This was my first project bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 The project uses:
  - Class components.
