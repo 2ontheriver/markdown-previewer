@@ -1,6 +1,6 @@
 # Markdown Previewer
 
-This repo is for the 'Build a Markdown Previewer' exercise from the Front End Development Libraries Projects on [freecodecamp.org](https://www.freecodecamp.org/learn/front-end-development-libraries/#front-end-development-libraries-projects)
+This repo is for the 'Build a Markdown Previewer' exercise from the Front End Development Libraries Projects on [freecodecamp.org](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-markdown-previewer)
 
 You can view this project on my GitHub pages: [duncan-s-white.github.io/markdown-previewer/](https://duncan-s-white.github.io/markdown-previewer/)
 
