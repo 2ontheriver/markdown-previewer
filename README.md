@@ -15,7 +15,7 @@ Some dependencies used:
  - font awesome for icons
  - gh-pages to build and deploy to GitHub pages
 
-## How to take a copy to develop further and run locally
+## How to run locally
 
 Clone the project to your machine. In the project directory, run the command:
 
