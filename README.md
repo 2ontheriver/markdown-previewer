@@ -12,8 +12,8 @@ The project uses:
 
 Some dependencies used:
  - remarkable - for the conversion of the markdown to HTML
- - font awesome for icons
- - gh-pages to build and deploy to GitHub pages
+ - fortawesome - for icons
+ - gh-pages - to build and deploy to GitHub pages
 
 ## How to run locally
 
