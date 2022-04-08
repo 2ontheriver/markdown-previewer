@@ -19,7 +19,7 @@ Some dependencies used:
 
 ## How to run locally
 
-Clone the project to your machine. In the project directory, to install dependencies run the command:
+Clone the project to your machine. In the project directory, to install dependencies, run the command:
 
 `npm install`
 
