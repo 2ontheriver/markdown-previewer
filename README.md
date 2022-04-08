@@ -1,22 +1,22 @@
-This repo is for the 'Build a Markdown Previewer' exercise from the Front End Development Libraries Projects on [freecodecamp.org](https://www.freecodecamp.org/learn/front-end-development-libraries/#front-end-development-libraries-projects)
+# Markdown Previewer
 
-You can view this project on my github pages: [dading84.github.io/markdown-previewer/](https://dading84.github.io/markdown-previewer/)
+This repo is for the 'Build a Markdown Previewer' exercise from the Front End Development Libraries Projects on [freecodecamp.org](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-markdown-previewer)
 
+You can view this project on my GitHub pages: [duncan-s-white.github.io/markdown-previewer/](https://duncan-s-white.github.io/markdown-previewer/)
 
-# Getting Started with Create React App
+This was my first project bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project uses:
+ - Class components.
+ - Custom CSS to style in a windows 95 style, for fun!
 
-## How to take a copy and run locally
+Some dependencies used:
+ - remarkable - for the conversion of the markdown to HTML
+ - fortawesome - for icons
+ - gh-pages - to build and deploy to GitHub pages
 
-Dowload the project to your PC
+## How to run locally
 
-In the project directory, you can run:
+Clone the project to your machine. In the project directory, run the command:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+`npm start`
