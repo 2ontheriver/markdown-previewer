@@ -1,4 +1,9 @@
-html, body {margin: 0; height: 100%; overflow: hidden}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
 body {
   margin: 1em;
   background-color: #55aaaa;
@@ -8,27 +13,28 @@ body {
   color: #fff;
 }
 
-h1#page-title{
+h1#page-title,
+p#tag-line {
   text-align: center;
   color: #fff;
-  font-family: 'MS Sans Serif', 'Microsoft MS Sans Serif', 'Sans Serif'
+  font-family: "MS Sans Serif", "Microsoft MS Sans Serif", "Sans Serif";
 }
 
-#container{
+#container {
   display: flex;
   justify-content: space-around;
 }
 
-.title-bar{
+.title-bar {
   background-color: #0000aa;
   margin: 0 0 3px;
   color: #fff;
   padding: 3px;
   border: 1px solid #9194c5;
   font-weight: bold;
-  font-family: 'MS Sans Serif', 'Microsoft MS Sans Serif', 'Sans Serif'
+  font-family: "MS Sans Serif", "Microsoft MS Sans Serif", "Sans Serif";
 }
-.window-icon{
+.window-icon {
   background-color: #dddfe1;
   padding: 0 2px;
   margin: 0 2px;
@@ -38,16 +44,17 @@ h1#page-title{
   text-align: center;
 }
 
-#editor-container{
+#editor-container {
   display: flex;
   width: 30%;
   height: 40vh;
   flex-direction: column;
 }
 
-#editor{
+#editor {
   resize: none;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
   width: 100%;
   height: 100%;
   padding: 1em;
@@ -58,7 +65,8 @@ h1#page-title{
   outline: none !important;
 }
 
-#preview, #editor{
+#preview,
+#editor {
   border-top: 2px solid #5d5f63;
   border-right: 1px solid #cbcfd2;
   border-bottom: 1px solid #cbcfd2;
@@ -66,7 +74,8 @@ h1#page-title{
   background-color: #fff;
 }
 
-#preview-container, #editor-container{
+#preview-container,
+#editor-container {
   border-top: 2px solid #dddfe1;
   border-right: 2px solid #626165;
   border-bottom: 2px solid #626165;
@@ -76,54 +85,51 @@ h1#page-title{
   box-shadow: 5px 10px 10px #3c7777;
 }
 
-#preview-container{
+#preview-container {
   width: 60%;
 }
 
-#preview{
+#preview {
   overflow-y: scroll;
   height: 80vh;
   padding: 0 1em;
   font-family: Times New Roman, serif;
 }
 
-#preview img{
-  max-width: 100%
+#preview img {
+  max-width: 100%;
 }
 
-#preview table{
+#preview table {
   border: 1px solid grey;
 }
-#preview th, #preview td{
+#preview th,
+#preview td {
   border: 1px solid grey;
-
 }
 
-blockquote{
-
-}
-
-#preview pre{
+#preview pre {
   display: block;
   background-color: #e0e2e3;
   padding: 0.5em;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
   background-color: #e0e2e3;
   display: inline-block;
   padding: 0.2em;
 }
 
-/* Styles for the max and default state of the windows */
-
-.maximized{
+.maximized {
   position: absolute;
   top: -2px;
   left: -4px;
   width: 100vw !important;
 }
-.maximized #preview, .maximized #editor, #editor-container.maximized{
+.maximized #preview,
+.maximized #editor,
+#editor-container.maximized {
   height: 100vh !important;
 }

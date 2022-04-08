@@ -1,16 +1,16 @@
-import React from 'react';
-import { faEye } from "@fortawesome/free-solid-svg-icons";
-import { faWindowMaximize, faWindowRestore } from "@fortawesome/free-regular-svg-icons";
+import React from "react";
+import {
+  faWindowMaximize,
+  faWindowRestore,
+} from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Preview from './Preview.js';
 
 class Window extends React.Component {
-
   constructor(props) {
     super();
     this.state = {
-      maximized: false
-    }
+      maximized: false,
+    };
     this.handleMaximize = this.handleMaximize.bind(this);
   }
 
@@ -22,18 +22,25 @@ class Window extends React.Component {
 
   render() {
     return (
-      <div id={this.props.desc + '-container'} className={this.state.maximized ? 'maximized' : ''}>
+      <div
+        id={this.props.desc + "-container"}
+        className={this.state.maximized ? "maximized" : ""}
+      >
         <div className="title-bar">
-          <FontAwesomeIcon icon={this.props.icon} color="#fff" /> {this.props.text}
+          <FontAwesomeIcon icon={this.props.icon} color="#fff" />{" "}
+          {this.props.text}
           <span className="window-icon" onClick={this.handleMaximize}>
-            <FontAwesomeIcon icon={this.state.maximized ? faWindowRestore : faWindowMaximize} color="#000" size="sm" />
+            <FontAwesomeIcon
+              icon={this.state.maximized ? faWindowRestore : faWindowMaximize}
+              color="#000"
+              size="sm"
+            />
           </span>
         </div>
         {this.props.children}
       </div>
     );
   }
-
 }
 
 export default Window;
