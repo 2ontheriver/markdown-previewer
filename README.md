@@ -7,16 +7,24 @@ You can view this project on my GitHub pages: [duncan-s-white.github.io/markdown
 This was my first project bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 The project uses:
- - Class components.
- - Custom CSS to style in a windows 95 style, for fun!
+
+- Class components.
+- Custom CSS to style in a windows 95 style, for fun!
 
 Some dependencies used:
- - remarkable - for the conversion of the markdown to HTML
- - fortawesome - for icons
- - gh-pages - to build and deploy to GitHub pages
+
+- remarkable - for the conversion of the markdown to HTML
+- fortawesome - for icons
+- gh-pages - to build and deploy to GitHub pages
 
 ## How to run locally
 
 Clone the project to your machine. In the project directory, run the command:
 
+`npm install`
+
+to install dependencies, then run the command:
+
 `npm start`
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
